@@ -1,0 +1,22 @@
+﻿# Staging & archives
+_staging/
+*.zip
+
+# Environment & secrets
+.env
+.env.*
+*.env
+
+# Node / build
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Sync artifacts
+.sync.log
+sync-*.tmp
+
+# OS
+Thumbs.db
+.DS_Store
